@@ -1,0 +1,73 @@
+$background-color: #0E0D0D;
+$font-family: 'Courier New', Courier, monospace;
+$text-color: whitesmoke;
+$link-color: whitesmoke;
+
+body {
+  background-color: $background-color;
+  font-family: $font-family;
+  margin: 0;
+  padding: 0;
+  color: $text-color;
+
+  .menu-color {
+    background-color: $background-color;
+  }
+
+  li {
+    .color-link {
+      color: $text-color;
+
+      &:hover {
+        background-color: $link-color;
+      }
+    }
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  header {
+    color: $text-color;
+    padding: 10px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  main {
+    padding: 20px 0;
+  }
+
+  footer {
+    color: #fff;
+    background-color: $background-color;
+    padding: 5px;
+    position: relative;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+}
+
+.tabla {
+  width: 100%;
+  margin: 20px;
+}
+
+.custom-table {
+    background-color: $background-color ;
+}
+   
+
+.about {
+  margin: 20px;
+  padding: 50px;
+}
+
+.text-center {
+  margin-top: 20px;
+}

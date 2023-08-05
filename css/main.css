@@ -1,0 +1,40 @@
+body {
+  background-color: #0E0D0D;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+  color: whitesmoke; }
+  body .menu-color {
+    background-color: #0E0D0D; }
+  body li .color-link {
+    color: whitesmoke; }
+    body li .color-link:hover {
+      background-color: whitesmoke; }
+  body .container {
+    padding: 20px; }
+  body header {
+    color: whitesmoke;
+    padding: 10px; }
+    body header a {
+      text-decoration: none; }
+  body main {
+    padding: 20px 0; }
+  body footer {
+    color: #fff;
+    background-color: #0E0D0D;
+    padding: 5px;
+    position: relative; }
+  body .text-right {
+    text-align: right; }
+
+.tabla {
+  width: 100%;
+  margin: 20px; }
+
+
+.about {
+  margin: 20px;
+  padding: 50px; }
+
+.text-center {
+  margin-top: 20px; }
